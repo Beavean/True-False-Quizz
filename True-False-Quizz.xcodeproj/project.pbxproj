@@ -13,6 +13,7 @@
 		0833C2FD28744E45001D0C4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0833C2FB28744E45001D0C4C /* Main.storyboard */; };
 		0833C2FF28744E48001D0C4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0833C2FE28744E48001D0C4C /* Assets.xcassets */; };
 		0833C30228744E48001D0C4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0833C30028744E48001D0C4C /* LaunchScreen.storyboard */; };
+		0833C30A2874860D001D0C4C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0833C3092874860D001D0C4C /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		0833C2FE28744E48001D0C4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0833C30128744E48001D0C4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0833C30328744E48001D0C4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0833C3092874860D001D0C4C /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				0833C2F528744E45001D0C4C /* AppDelegate.swift */,
 				0833C2F728744E45001D0C4C /* SceneDelegate.swift */,
-				0833C2F928744E45001D0C4C /* ViewController.swift */,
 				0833C2FB28744E45001D0C4C /* Main.storyboard */,
 				0833C2FE28744E48001D0C4C /* Assets.xcassets */,
 				0833C30028744E48001D0C4C /* LaunchScreen.storyboard */,
 				0833C30328744E48001D0C4C /* Info.plist */,
+				0833C3092874860D001D0C4C /* Model.swift */,
+				0833C2F928744E45001D0C4C /* ViewController.swift */,
 			);
 			path = "True-False-Quizz";
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				0833C2FA28744E45001D0C4C /* ViewController.swift in Sources */,
 				0833C2F628744E45001D0C4C /* AppDelegate.swift in Sources */,
 				0833C2F828744E45001D0C4C /* SceneDelegate.swift in Sources */,
+				0833C30A2874860D001D0C4C /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +288,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9PF2GLF6PD;
@@ -312,7 +316,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9PF2GLF6PD;
